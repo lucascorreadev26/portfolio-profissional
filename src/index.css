@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #08090F;
+  color: white;
+
+  /* Grid */
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.027) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.021) 1px, transparent 1px);
+
+  background-size:
+    60px 60px,
+    60px 60px,
+    100% 100%,
+    100% 100%;
+
+  background-attachment: fixed;
+}
+.Logo{
+  font-family: var(--font-mono);
+}
+
+.font-inter{
+  font-family: var(--font-inter);
+}
+
+.BadgeStatus{
+  font-family: var(--font-mono);
+}
+
+.font-mono{
+  font-family: var(--font-mono);
+}
+
+@theme {
+  --animate-profile-flip: profile-flip 6s ease-in-out infinite;
+  --animate-smoke: smoke 3s ease-in-out infinite;
+
+  @keyframes profile-flip {
+    0%, 70% {
+      transform: rotateY(0deg);
+    }
+
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @keyframes smoke {
+    0% {
+      transform: scale(0.9);
+      opacity: .3;
+    }
+
+    50% {
+      transform: scale(1.2);
+      opacity: .6;
+    }
+
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+}

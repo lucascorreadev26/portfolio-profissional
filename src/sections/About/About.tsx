@@ -1,4 +1,4 @@
-import BadgeSection from '../../Bagde/BadgeSection'
+import BadgeSection from "../../components/Bagde/BadgeSection"
 
 const About = () => {
   return (

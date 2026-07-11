@@ -1,4 +1,4 @@
-import perfilPortifolio from '../../../assets/perfilPortifolio.png'
+import perfilPortfolio from "../../assets/perfilPortifolio.png"
 
 const Profile = () => {
   return (
@@ -10,7 +10,7 @@ const Profile = () => {
 
         {/* Foto */}
         <img
-          src={perfilPortifolio}
+          src={perfilPortfolio}
           alt="Imagem de Perfil do Desenvolvedor Lucas Correa"
           className="relative z-10 w-56 sm:w-64 lg:w-80 rounded-full animate-profile-flip"
         />

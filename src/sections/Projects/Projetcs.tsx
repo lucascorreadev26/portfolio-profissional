@@ -1,18 +1,19 @@
+import { FaEarthAmericas } from "react-icons/fa6";
 import {
   SiGit,
   SiGithub,
   SiJavascript,
   SiReact,
   SiTailwindcss,
-  SiTypescript,
   SiVite,
 } from "react-icons/si";
-import CardsStacks from "../../Cards/CardsStacks";
-import BadgeSection from "../../Bagde/BadgeSection";
+import BadgeSection from "../../components/Bagde/BadgeSection";
+import Button from "../../components/Button/Button";
+import CardsStacks from "../../components/Cards/CardsStacks";
 
 const Projetcs = () => {
   return (
-    <div className="bg-[#08090F] pt-24 px-6 md:px-10 lg:px-0">
+    <div className="bg-[#08090F] pt-24 px-6 md:px-10 lg:px-0 pb-64">
       <div className="lg:ml-62">
         <BadgeSection>
           <span>&gt;_</span>
@@ -22,9 +23,8 @@ const Projetcs = () => {
 
       {/* Projeto 01 - Imports Solution */}
       <div className="group relative overflow-hidden border border-blue-800/50bg-[#0D1117] w-full md:w-120 mt-10 lg:ml-62 p-6 rounded-xl transition-all duration-500 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_30px_rgba(37,99,235,0.25)]">
-      
         {/* Glow no hover */}
-        <div className="absolute inset-0 bg-linear-to-r from-blue-600/10 via-transparent to-cyan-500/10 opacity-0 group-hover:opacity-1 transition-opacity duration-500"/>
+        <div className="absolute inset-0 bg-linear-to-r from-blue-600/10 via-transparent to-cyan-500/10 opacity-0 group-hover:opacity-1 transition-opacity duration-500" />
 
         <div className="relative z-10">
           <h2 className="text-xl font-bold font-inter text-white mb-3 group-hover:text-blue-400 transition-colors duration-300">
@@ -68,7 +68,17 @@ const Projetcs = () => {
             </CardsStacks>
           </div>
 
-          <div className="flex gap-4 mt-8"></div>
+          <div className="flex gap-4 mt-8">
+            <Button variant="primary">
+              <FaEarthAmericas className="text-white border border-white/20 rounded-lg w-8 h-8 p-2" />
+              <span className="pl-2">Ver Projeto</span>
+            </Button>
+
+            <Button variant="secondary">
+              <SiGithub className="text-white bg-black border border-gray-700 rounded-lg w-8 h-8 p-2" />
+              <span className="pl-2">GitHub</span>
+            </Button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
-import CardsStacks from "../../Cards/CardsStacks";
-
+import CardsStacks from "../../components/Cards/CardsStacks";
 import {
   SiReact,
   SiNodedotjs,
@@ -9,6 +8,7 @@ import {
   SiPrisma,
   SiVite,
 } from "react-icons/si";
+
 
 const HeroStack = () => {
   return (

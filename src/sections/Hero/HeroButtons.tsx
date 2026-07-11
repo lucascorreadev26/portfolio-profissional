@@ -1,5 +1,6 @@
-import Button from "../../Button/Button"   
+ 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import Button from "../../components/Button/Button";
 
 
 const HeroButtons = () => {
@@ -11,7 +12,7 @@ const HeroButtons = () => {
             Ver Projetos
           </Button> 
 
-          <Button variant="secundary">
+          <Button variant="secondary">
             Meus Serviços
           </Button>
         </div>

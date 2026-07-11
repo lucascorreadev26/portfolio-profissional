@@ -1,6 +1,5 @@
-
-import BadgeScroll from '../../Bagde/BadgeScroll'
-import BadgeStatus from '../../Bagde/BadgeStatus'
+import BadgeScroll from '../../components/Bagde/BadgeScroll'
+import BadgeStatus from '../../components/Bagde/BadgeStatus'
 import HeroButtons from './HeroButtons'
 import HeroContent from './HeroContent'
 import HeroStack from './HeroStack'

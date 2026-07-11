@@ -1,22 +1,23 @@
 import {
+  SiExpress,
+  SiGit,
+  SiGithub,
+  SiGraphql,
+  SiJavascript,
   SiNextdotjs,
   SiNodedotjs,
-  SiPostgresql,
-  SiReact,
-  SiTypescript,
-  SiExpress,
-  SiTailwindcss,
-  SiPrisma,
-  SiGithub,
-  SiGit,
-  SiJavascript,
-  SiGraphql,
-  SiRedis,
   SiNpm,
+  SiPostgresql,
+  SiPrisma,
+  SiReact,
+  SiRedis,
+  SiTailwindcss,
+  SiTypescript,
   SiVite,
 } from "react-icons/si";
-import BadgeSection from "../../Bagde/BadgeSection";
-import CardsStacks from "../../Cards/CardsStacks";
+import BadgeSection from "../../components/Bagde/BadgeSection";
+import CardsStacks from "../../components/Cards/CardsStacks";
+
 
 const Tech = () => {
   return (

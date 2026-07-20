@@ -11,6 +11,11 @@ const ProjectsList = () => {
             <span>&gt;_</span>
             <span className="font-mono font-bold uppercase">Projetos</span>
           </BadgeSection>
+
+          <h2 className="sm:text-5xl lg:text-4xl font-extrabold font-inter text-center lg:text-left uppercase mb-2">
+            Meu stack técnico
+          </h2>
+          <h2></h2>
         </div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-32 lg:w-7xl">

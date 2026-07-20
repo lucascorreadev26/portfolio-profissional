@@ -12,6 +12,7 @@ import type { Project } from "./types";
 
 import projetoImportSolution from "../../assets/screenshots/projeto-import-solution.jpeg";
 import projetoPortifolioProfissional from "../../assets/screenshots/projeto-portifolio-profissional.jpeg";
+import projetoSimuladorVendas from '../../assets/screenshots/projeto-simulador-vendas.jpeg'
 
 export const projects: Project[] = [
   // Projeto 01 - Imports Solution
@@ -58,5 +59,27 @@ export const projects: Project[] = [
 
     liveUrl: "https://lucascorreadev.com.br/",
     githubUrl: "https://github.com/lucascorreadev26/portifolio-profissional",
+  },
+
+  {
+    id: 3,
+
+    title: "EcoFogões - Simulador de Vendas",
+    description:
+      "Simulador de vendas que calcula automaticamente opções de parcelamento de 1x a 10x com base nas taxas reais de uma máquina de cartão. A aplicação possui atualização em tempo real, layout responsivo, input monetário e opção para salvar a simulação como imagem PNG. Desenvolvido com React, TypeScript, Vite e Tailwind CSS.",
+
+    technologies: [
+      SiReact,
+      SiVite,
+      SiTypescript,
+      SiTailwindcss,
+      SiGithub,
+      SiGit,
+    ],
+
+    image: projetoSimuladorVendas,
+
+    liveUrl: "https://simulador-vendas-phi.vercel.app/",
+    githubUrl: "https://github.com/lucascorreadev26/simulador-vendas",
   },
 ];

@@ -11,7 +11,7 @@ type ProjectCardProps = {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <div className="group mb-64 relative w-full overflow-hidden rounded-xl border border-blue-800/50 bg-[#0D1117] p-5 sm:p-6 transition-all duration-500 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_30px_rgba(37,99,235,0.25)]">
+    <div className="group relative w-full overflow-hidden rounded-xl border border-blue-800/50 bg-[#0D1117] p-5 sm:p-6 transition-all duration-500 hover:-translate-y-2 hover:border-blue-500 hover:shadow-[0_0_30px_rgba(37,99,235,0.25)]">
       {/* Glow */}
       <div className="absolute inset-0 bg-linear-to-r from-blue-600/10 via-transparent to-cyan-500/10 opacity-0" />
 

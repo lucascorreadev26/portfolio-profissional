@@ -4,7 +4,7 @@ import { projects } from "./projects";
 
 const ProjectsList = () => {
   return (
-    <section className="bg-[#08090F] pt-24 px-6 md:px-10 lg:px-0">
+    <section className="bg-[#08090F] pt-24 px-6 md:px-10 lg:px-0 py-20">
       <div className="max-w-3xl lg:ml-64">
         <div className="">
           <BadgeSection>
@@ -12,10 +12,10 @@ const ProjectsList = () => {
             <span className="font-mono font-bold uppercase">Projetos</span>
           </BadgeSection>
 
-          <h2 className="sm:text-5xl lg:text-4xl font-extrabold font-inter text-center lg:text-left uppercase mb-2">
-            Meu stack técnico
+          <h2 className="sm:text-5xl lg:text-4xl font-extrabold font-inter text-center lg:text-left uppercase mb-2 mt-10 ">
+            Experiências que construí
           </h2>
-          <h2></h2>
+          <p className="text-lg lg:text-md font-inter w-full lg:w-140 text-center lg:text-justify mt-2 text-gray-400">Aplicações desenvolvidas para resolver problemas reais, unindo tecnologia, experiência do usuário e objetivos de negócio.</p>
         </div>
 
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-32 lg:w-7xl">

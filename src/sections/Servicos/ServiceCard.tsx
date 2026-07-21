@@ -7,7 +7,7 @@ type ServiceCardProps = {
 };
 
 const ServiceCard = ({ service }: ServiceCardProps) => {
-  const whatsappNumber = "5521999999999";
+  const whatsappNumber = "5521959507683";
 
   const whatsappMessage = encodeURIComponent(
     `Olá, Lucas! Gostaria de saber mais sobre o serviço de ${service.title}.`,
@@ -29,16 +29,16 @@ const ServiceCard = ({ service }: ServiceCardProps) => {
             Serviço
           </span>
 
-          <h3 className="mt-3 text-xl leading-tight font-bold break-words text-white sm:text-2xl">
+          <h3 className="mt-3 text-xl leading-tight font-bold wrap-break-word text-white sm:text-2xl">
             {service.title}
           </h3>
 
-          <p className="mt-4 text-sm leading-6 break-words text-gray-400 sm:text-base sm:leading-7">
+          <p className="mt-4 text-sm leading-6 wrap-break-word text-gray-400 sm:text-base sm:leading-7">
             {service.description}
           </p>
         </header>
 
-        <div className="my-6 h-px w-full bg-gradient-to-r from-blue-500/50 to-transparent" />
+        <div className="my-6 h-px w-full bg-linear-to-r from-blue-500/50 to-transparent" />
 
         <ul className="space-y-4">
           {service.includedServices.map((includedService) => (
